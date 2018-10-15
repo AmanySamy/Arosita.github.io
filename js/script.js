@@ -3,8 +3,6 @@
 $(function() {
 	'use strict';
 	
-	$('html').niceScroll();
-	
 	/*--------- /Add Scrolled class to navbar -----*/
 	$(window).scroll(function(){
 		var navbar = $('nav');
@@ -23,12 +21,15 @@ $(function() {
 		
 		/*--------- Make Smooth Scroll -----*/
 		$('html , body').animate({
-			scrollTop : ($($(this).data("link"))).offset().top - 50
+			scrollTop : ($($(this).data("link"))).offset().top
 		},1500);
 		
 	
 	});
 	/*--------- Call Owl Carousel -----*/
+	$('.carousel').carousel({
+		interval: 5000
+	  });
 	$(".owl-carousel").owlCarousel({
 		navigation:true,
 		items:4,

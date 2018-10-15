@@ -12,37 +12,235 @@
 </head>
 <body>
 	<nav class="navbar navbar-toggleable-md fixed-top bg-faded">
-		<a class="navbar-brand" href="#">Navbar</a>
-		<button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-		
-	  
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		  <ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-			  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="#">Link</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link disabled" href="#">Disabled</a>
-			</li>
-		  </ul>
-		  <form class="form-inline my-2 my-lg-0">
-			<input class="form-control mr-sm-2" type="text" placeholder="Search">
-			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		  </form>
+		<div class="container">
+			<a class="navbar-brand" href="#">acrostia</a>
+			<button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item" data-link=".services">
+					<a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item" data-link=".about">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item" data-link=".work">
+					<a class="nav-link" href="#">Work</a>
+				</li>
+				<li class="nav-item" data-link=".contact">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+				
+				</ul>
+				
+			</div>
 		</div>
-	  </nav>
+	</nav>
+
+	<!-- Strat Header -->
+	<header class="home">
+		<div class="container">
+			<div id="home-slide" class="carousel slide" data-ride="carousel">
+				<ul class="carousel-indicators">
+					<li data-target="#home-slide" data-slide-to="0" class="active"></li>
+					<li data-target="#home-slide" data-slide-to="1" ></li>
+					<li data-target="#home-slide" data-slide-to="2" ></li>
+				</ul>
+				<!-- Carousel-inner -->
+				<div class="carousel-inner">
+					<!-- Carousel Item -->
+					<div class="carousel-item active">
+						<h1>
+							<span>GOOD IDEAS<br> comes </span>
+							<span>FIRST!</span>
+						</h1>
+					</div>
+					<!-- Carousel Item -->
+					<div class="carousel-item">
+						<h1>
+							<span>GOOD IDEAS<br> comes </span>
+							<span>SECOND!</span>
+						</h1>
+					</div>
+					<!-- Carousel Item -->
+					<div class="carousel-item">
+						<h1>
+							<span>GOOD IDEAS<br> comes </span>
+							<span>THIRD!</span>
+						</h1>
+					</div>
+				</div>
+
+				<!-- Carousel control -->
+				<a class="carousel-control-prev" data-slide="prev"  data-target="#home-slide">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				</a>
+				<a class="carousel-control-next" data-slide="next"  data-target="#home-slide">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!-- End Header -->
+
+	<!-- Start Our Services -->
+	<section class="services text-center">
+		<div class="container">
+			<h2 class="section-title">OUR SERVICES</h2>
+			<h4 class="section-sub-title">
+				Cras commodo mattis justo nec <span>lobortis</span>. Nam ut tellus lobortis, ullamcorper massa sit amet
+			</h4>
+			<p class="section-desc">
+				Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
+			</p>
+
+			<div class="row">
+				<!-- Service -->
+				<div class="col-md service">
+					<div class="icon">
+						<i class="fa fa-lightbulb-o"></i>
+					</div>
+					<h3>Researching</h3>
+					<p>
+						Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+					</p>
+				</div>
+				<!-- Service -->
+				<div class="col-md service">
+					<div class="icon">
+						<i class="fa fa-magic"></i>
+					</div>
+					<h3>Researching</h3>
+					<p>
+						Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+					</p>
+				</div>
+				<!-- Service -->
+				<div class="col-md service">
+					<div class="icon">
+						<i class="fa fa-cogs"></i>
+					</div>
+					<h3>Researching</h3>
+					<p>
+						Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+					</p>
+				</div>
+				<!-- Service -->
+				<div class="col-md service">
+					<div class="icon">
+						<i class="fa fa-rocket"></i>
+					</div>
+					<h3>Researching</h3>
+					<p>
+						Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Our Services -->
 	
+
+	<!-- Start About -->
+	<section class="about text-center">
+		<div class="container">
+			<h2 class="section-title">Who we are & what we do</h2>
+			<p class="section-desc">
+				Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
+			</p>
+			<span class="meet">Meet the team</span>
+			<div class="row">
+				<!-- Member -->
+				<div class="col-md member">
+					<div class="icon"></div>
+					<h3>Anton Petrov</h3>
+					<p>General manager</p>
+					<ul class="list-unstyled">
+						<li><i class="fa fa-facebook"></i></li>
+						<li><i class="fa fa-twitter"></i></li>
+						<li><i class="fa fa-google-plus"></i></li>
+						<li><i class="fa fa-linkedin"></i></li>
+					</ul>
+				</div>
+				
+				<!-- Member -->
+				<div class="col-md member">
+					<div class="icon"></div>
+					<h3>Anton Petrov</h3>
+					<p>General manager</p>
+					<ul class="list-unstyled">
+						<li><i class="fa fa-facebook"></i></li>
+						<li><i class="fa fa-twitter"></i></li>
+						<li><i class="fa fa-google-plus"></i></li>
+						<li><i class="fa fa-linkedin"></i></li>
+					</ul>
+				</div>
+				
+				<!-- Member -->
+				<div class="col-md member">
+					<div class="icon"></div>
+					<h3>Anton Petrov</h3>
+					<p>General manager</p>
+					<ul class="list-unstyled">
+						<li><i class="fa fa-facebook"></i></li>
+						<li><i class="fa fa-twitter"></i></li>
+						<li><i class="fa fa-google-plus"></i></li>
+						<li><i class="fa fa-linkedin"></i></li>
+					</ul>
+				</div>
+				
+				<!-- Member -->
+				<div class="col-md member">
+					<div class="icon"></div>
+					<h3>Anton Petrov</h3>
+					<p>General manager</p>
+					<ul class="list-unstyled">
+						<li><i class="fa fa-facebook"></i></li>
+						<li><i class="fa fa-twitter"></i></li>
+						<li><i class="fa fa-google-plus"></i></li>
+						<li><i class="fa fa-linkedin"></i></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End About -->
+	
+	<!-- Start Our Work -->
+	<section class="work text-center">
+		<div class="container">
+			<h2 class="section-title">our work</h2>
+			<p class="section-desc">
+				Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
+			</p>
+			<div class="row navigation">				
+				<h3>Portfolio</h3>
+				<ul class="list-unstyled">
+					<li>All</li>
+					<li>Photography</li>
+					<li>Logo design</li>
+					<li>Web design</li>
+				</ul>
+			</div>
+
+			<div class="row gallery">
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Work -->
 	
 	<script src = "js/jquery.min.js"></script>
 	<script src = "js/owl.carousel.min.js"></script>
 	<script src = "js/tether.min.js"></script>
 	<script src = "js/bootstrap.min.js"></script>
-	<script src = "js/jquery.nicescroll.min.js"></script>
 	<script src = "js/script.js"></script>
 </body>
 </html>
